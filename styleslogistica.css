@@ -1,0 +1,57 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+
+a
+{
+   
+    text-decoration: none;
+    color: #635959;
+    padding: 0 10px;
+}
+
+body
+{
+    background-image: url(img/fundo\ logistica.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.alinhamento
+{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main__texto
+{
+   
+
+    background-color: rgba(255, 255, 255, 0.4);
+    text-align: center;
+    width: 70%;    
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    
+    
+    
+}
+

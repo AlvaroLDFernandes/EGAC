@@ -1,0 +1,53 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+a
+{
+   
+    text-decoration: none;
+    color: #635959;
+    padding: 0 10px;
+}
+
+body
+{
+    background-image: url(img/Fundo\ loja.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.alinhamento
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+    gap: 100px;
+    background-color: white;
+    justify-content: center;
+    width: 70% ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px black;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+
+.topo
+{
+    margin-top: 20px;
+}
+
+.baixo
+{
+    margin-bottom: 20px;
+}

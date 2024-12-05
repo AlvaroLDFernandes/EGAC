@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+a
+{
+   
+    text-decoration: none;
+    color: #635959;
+    padding: 0 10px;
+}
+
+body
+{
+    background-image: url(img/Fundo\ home.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    
+    
+
+}
+
+.main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+
+   
+
+}
+
+.main__pesquisa
+{
+    padding: 15px 200px;
+    border-radius: 26px;
+    box-shadow: 0 4px 6px black;
+    width: 50%;
+    text-align: center;
+   
+    
+    
+
+}
+
+.main__pesquisa::placeholder
+{
+    background: url(img/Lupa.svg) no-repeat;
+    background-position: 0px;
+    padding: 20px;
+    text-align: center;
+    
+}
+   

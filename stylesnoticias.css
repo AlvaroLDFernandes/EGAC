@@ -1,0 +1,88 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+a
+{
+   
+    text-decoration: none;
+    color: #635959;
+    padding: 0 10px;
+}
+
+body
+{
+    background-image: url(img/Fundo\ noticias.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+main
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.noticias
+{
+    background-color: white;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px 1px black;    
+    width: 70%;
+    
+    
+}
+
+.img__noticia
+{
+    width: 250px ;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px lightgray;
+}
+
+.a__noticia
+{
+    color: black;
+    width: 250px;
+    margin-right: 25px;
+    
+    
+}
+.img__a
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+
+h1
+{
+    background-color: green;
+    border-radius: 20px;
+    padding: 5px 40px;
+    margin: 50px 0;
+    color: white;
+    text-transform: uppercase;
+}
+
+.a__noticia:hover
+{
+    text-decoration: underline;
+    color: gray;
+}

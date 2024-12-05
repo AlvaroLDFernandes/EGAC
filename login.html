@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="styleslogin.css" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho__img" src="img/Logo.svg" alt="Logo EGAC">
+        <div class="cabecalho__links">
+            <a href="index.html">Home</a>
+            <a href="noticias.html">Notícias</a>
+            <a href="logistica.html">Logística</a>
+            <a href="quem somos.html">Quem somos</a>
+            <a href="contato.html">Contato</a>
+            <a href="loja.html">Loja</a>
+            <a href="login.html"><b>Login</b></a>
+        </div>
+    </header>
+    <main>
+        <section class="alinhamento">
+            <div>
+                <form>
+                    <h1>Login</h1>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" size="40" placeholder="E-mail" required>                    
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" size="40" placeholder="*****" required>
+                    <br>
+                    <button class="botoes" type="submit">Logar</button>
+                </form>
+            </div>
+            <img class="logodomeio" src="img/logo grande.svg" alt="logo da EGAC">
+            <div>
+                <form>
+                    <h1>Cadastro</h1>
+                    <label for="nome">Nome</label>
+                    <input type="text" size="40" name="nome" placeholder="Seu nome" required >
+                    <label for="email">E-mail</label>
+                    <input type="email" size="40" name="email" placeholder="Seu e-mail" required>
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" size="40" name="telefone" placeholder="(xx) xxxxx-xxxx" required>
+                    <label for="senha">Senha</label>
+                    <input type="password" size="40" name="senha" placeholder="*****" required>
+                    <label for="confirmarsenha">Confirmar senha</label>
+                    <input type="password" name="confrimarsenha" size="40" placeholder="confrimar senha">
+                    <br>    
+                    <div class="botoes">
+                    <button type="submit">Cadastrar</button>
+                    <button type="reset">Limpar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>

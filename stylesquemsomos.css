@@ -1,0 +1,71 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cabecalho
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    text-align: center;
+}
+a
+{
+   
+    text-decoration: none;
+    color: #635959;
+    padding: 0 10px;
+}
+
+body
+{
+    background-image: url(img/Fundo\ quem\ somos.svg);
+    background-repeat: none;
+    background-size: 100%;
+}
+
+.alinhamento
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;       
+    margin-top: 100px;
+    gap: 200px;
+   
+    
+   
+}
+
+.valores
+{
+    background-color: white;
+    width: 30%;
+    border-radius: 20px;
+   
+}
+
+.valores__texto
+{
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 30px 20px;
+    font-size: 26px;
+    gap: 50px;
+
+}
+.quemsomos
+{
+    width: 40%;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+    
+
+}
